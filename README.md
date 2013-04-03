@@ -4,24 +4,31 @@
 
 ### Fast Search for [Bespoke.js](https://github.com/markdalgleish/bespoke.js)
 
-Fast Search for Bespoke.js slidedesk.
+Fast Search for Bespoke.js slide-decks.
 
 ## Download
 
-Download the [production version][min] or the [development version][max].
+Download the [production version][min] or the [development version][max] and the [css][css].
 
 [min]: https://raw.github.com/mobz/bespoke-spotlight/master/dist/bespoke-spotlight.min.js
 [max]: https://raw.github.com/mobz/bespoke-spotlight/master/dist/bespoke-spotlight.js
+[css]: https://raw.github.com/mobz/bespoke-spotlight/master/dist/bespoke-spotlight.css
 
 ## Basic Usage
 
-First, include both `bespoke.js` and `bespoke-spotlight.js` in your page.
+First, include both `bespoke.js`, `bespoke-spotlight.js` and `bespoke-spotlight.css` in your page.
 
-Then, simply include the plugin when using the `from(selector[, plugins])` method.
+Then, simply include the plugin when initing bespoke
 
-Press '/' on your keyboard to bring up the search field and 'RETURN' or 'ESC' to close it.
+```
+			bespoke.horizontal.from('article', {
+				spotlight: true
+			});
+```
 
-As you type spotlight automatically navigates to the first slide that contains matching text.
+Press 'q' (for query) on your keyboard to bring up the search field and 'RETURN' or 'ESC' to close it.
+
+As you type spotlight automatically navigates to the first slide that contains matching text. Spotlight will search headings first, then all other content
 
 ## Questions?
 

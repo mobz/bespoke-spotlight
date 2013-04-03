@@ -1,0 +1,38 @@
+/*!
+ * bespoke-spotlight v0.0.1-alpha-1
+ *
+ * Copyright 2013, Ben Birch
+ * This content is released under the MIT license
+ * http://mit-license.org/mobz
+ */
+
+#bespoke-spotlight {
+	opacity: 0.75;
+	box-sizing: border-box;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	margin-left: -204px;
+	border: 2px solid black;
+	padding: 6px;
+	background: #DDD;
+	background: -webkit-linear-gradient(top, #DDD 0%,#999 100%);
+	background: -moz-linear-gradient(top, #DDD 0%, #999 100%);
+	background: -ms-linear-gradient(top, #DDD 0%,#999 100%);
+	background: -o-linear-gradient(top, #DDD 0%,#999 100%);
+	background: linear-gradient(to bottom, #DDD 0%,#999 100%);
+	border-radius: 8px;
+}
+
+#bespoke-spotlight-q {
+	outline: none;
+	box-sizing: border-box;
+	border: 1px solid black;
+	font-size: 300%;
+	width: 400px;
+	border-radius: 0px;
+}
+
+#bespoke-spotlight-q.no-match {
+	background: #ff8888;
+}

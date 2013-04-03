@@ -6,7 +6,7 @@
  * http://mit-license.org/mobz
  */
 
-(function( bespoke ) {
+(function(bespoke) {
 
 	var INVOKE_CHAR_CODE = 81; // q
 	var SEARCH_SELECTORS = [
@@ -92,4 +92,4 @@
 
 	bespoke.plugins.spotlight = plugin;
 
-}( bespoke ));
+}(bespoke));

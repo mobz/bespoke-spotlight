@@ -25,17 +25,21 @@ bespoke.horizontal.from('article', {
 ```
 
 Press 'q' (for query) on your keyboard to bring up the search field and 'RETURN' or 'ESC' to close it.
-## Package managers
 
 As you type spotlight automatically navigates to the first slide that contains matching text. Spotlight will search headings first, then all other content
-### Bower
 
 ## Questions?
+
+Contact me on GitHub or Twitter: [@mobz](http://twitter.com/mobz)
+
+## Package managers
+
+### Bower
+
 ```bash
 $ bower install bespoke-spotlight
 ```
 
-Contact me on GitHub or Twitter: [@mobz](http://twitter.com/mobz)
 ### npm
 
 ```bash

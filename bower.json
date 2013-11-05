@@ -1,0 +1,7 @@
+{
+  "name": "bespoke-spotlight",
+  "version": "0.0.1-alpha-1",
+  "dependencies": {
+    "bespoke.js": ">=0.3.0"
+  }
+}

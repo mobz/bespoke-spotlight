@@ -1,9 +1,9 @@
 /*!
  * bespoke-spotlight v0.0.1-alpha-1
+ * https://github.com/mobz/bespoke-spotlight
  *
  * Copyright 2013, Ben Birch
  * This content is released under the MIT license
- * http://mit-license.org/mobz
  */
 
 (function(bespoke) {

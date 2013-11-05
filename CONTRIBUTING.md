@@ -1,23 +1,18 @@
 # Contributing
 
 ## Important notes
-Please don't edit files in the `dist` subdirectory as they are generated via grunt. You'll find source code in the `src` subdirectory!
+Please don't edit files in the `dist` subdirectory as they are generated via [Grunt](http://gruntjs.com/). You'll find source code in the `src` subdirectory!
 
 ### Code style
 Regarding code style like indentation and whitespace, **follow the conventions you see used in the source already.**
 
-### PhantomJS
-See the [Why does grunt complain that PhantomJS isn't installed?](https://github.com/gruntjs/grunt/blob/master/docs/faq.md#why-does-grunt-complain-that-phantomjs-isnt-installed) guide in the [Grunt FAQ](https://github.com/gruntjs/grunt/blob/master/docs/faq.md) for help with installing or troubleshooting PhantomJS.
-
 ## Modifying the code
 First, ensure that you have the latest [Node.js](http://nodejs.org/) and [npm](http://npmjs.org/) installed.
 
-Test that grunt is installed globally by running `grunt --version` at the command-line.  If grunt isn't installed globally, run `npm install -g grunt` to install the latest version. _You may need to run `sudo npm install -g grunt`._
-
-_Note that in Windows, you may have to run `grunt.cmd` instead of `grunt`._
+Test that Grunt's CLI is installed by running `grunt --version`.  If the command isn't found, run `npm install -g grunt-cli`.  For more information about installing Grunt, see the [getting started with Grunt guide](http://gruntjs.com/getting-started).
 
 1. Fork and clone the repo.
-1. Run `npm install` to install all dependencies (including grunt).
+1. Run `npm install` to install all build dependencies (including Grunt).
 1. Run `grunt` to grunt this project.
 
 Assuming that you don't see any red, you're ready to go. Just be sure to run `grunt` after making any changes, to ensure that nothing is broken.

@@ -3,24 +3,37 @@
   "title": "bespoke-spotlight",
   "version": "0.0.1-alpha-1",
   "description": "Fast Search for Bespoke",
+  "homepage": "https://github.com/mobz/bespoke-spotlight",
+  "bugs": "https://github.com/mobz/bespoke-spotlight/issues",
   "author": {
     "name": "Ben Birch",
-    "url": "http://mobz.org"
+    "url": "https://github.com/mobz"
   },
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "scripts": {
-    "test": "grunt jasmine"
-  },
+  "main": "./dist/bespoke-spotlight.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/mobz/bespoke-spotlight.git"
   },
+  "scripts": {
+    "test": "grunt"
+  },
+  "peerDependencies": {
+    "bespoke": ">=0.3.0"
+  },
   "devDependencies": {
-    "grunt": "~0.3.17",
-    "grunt-jasmine-runner": "~0.6.0",
-    "temporary": "0.0.5"
+    "grunt-cli": "~0.1.9",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-jasmine": "~0.5.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-micro": "~0.1.0",
+    "bespoke": ">=0.3.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
   },
   "licenses": [
     {
